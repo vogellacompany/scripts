@@ -10,6 +10,10 @@ sudo apt-get autoremove unity-lens-music unity-lens-photos unity-lens-gwibber un
 apt-get install texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra texlive-fonts-recommended vim -y
 apt-get install keepassx shutter inkscape filezilla pdftk openjdk-7-jdk calibre xchat nautilus-open-terminal sound-juicer openjdk-7-source xournal -y
 
+# Install gnome-colorchooser to allow to set the 
+# tooltip color in Eclipse
+sudo apt-get install gnome-color-chooser
+
 # Setup Git defaults
 
 # Create a ~/.gitignore in your user directory
