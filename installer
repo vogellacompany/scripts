@@ -12,7 +12,7 @@ apt-get install keepassx shutter inkscape filezilla pdftk openjdk-7-jdk calibre 
 
 # Install gnome-colorchooser to allow to set the 
 # tooltip color in Eclipse
-sudo apt-get install gnome-color-chooser
+sudo apt-get install gnome-color-chooser -y
 
 # Setup Git defaults
 
@@ -32,4 +32,4 @@ echo "target/" >> .gitignore
 git config --global core.excludesfile ~/.gitignore
 git config --global branch.autosetuprebase always 
 
-
+echo alias upgrade='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade' >> ~/.bashrc
