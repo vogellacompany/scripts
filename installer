@@ -14,8 +14,6 @@ apt-get install keepassx shutter inkscape filezilla pdftk openjdk-7-jdk calibre 
 # tooltip color in Eclipse
 sudo apt-get install gnome-color-chooser -y
 
-# remove unwanted Ubuntu lenses
-sudo apt-get autoremove unity-lens-music unity-lens-photos unity-lens-gwibber unity-lens-shopping unity-lens-video -y
 
 # install Dropbox indicator
 sudo apt-get install libappindicator1 -y
