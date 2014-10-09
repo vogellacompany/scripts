@@ -39,7 +39,7 @@ sudo apt-get update && upgrade
 sudo apt-get autoremove unity-lens-music unity-lens-photos unity-lens-gwibber unity-lens-shopping unity-lens-video -y
 
 # install typical packages
-apt-get install tree texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra texlive-fonts-recommended vim okular -y
+apt-get install tree texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra texlive-lang-german texlive-fonts-recommended vim okular -y
 apt-get install keepassx shutter inkscape filezilla pdftk openjdk-7-jdk calibre xchat nautilus-open-terminal sound-juicer openjdk-7-source xournal maven -y
 
 # Install gnome-colorchooser to allow to set the 
