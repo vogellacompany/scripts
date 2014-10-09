@@ -1,7 +1,39 @@
 #!/bin/sh
+# Setup Git defaults
+
+# Create a ~/.gitignore in your user directory
+cd ~/
+touch .gitignore
+# Exclude bin and .metadata directories
+echo "bin" >> .gitignore
+echo ".metadata" >> .gitignore
+echo "*~" >> .gitignore
+echo "target/" >> .gitignore
+
+# Configure Git to use this file
+# as global .gitignore
+
+git config --global core.excludesfile ~/.gitignore
+git config --global branch.autosetuprebase always 
+
+echo alias upgrade='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade' >> ~/.bashrc
+
+# create an executable command which allows to create pdf files from Latex files
+mkdir ~/bin
+cd ~/bin
+echo "pdflatex *.tex" > createpdf
+chmod 666 createpdf
+
+# Setup a Git alias to sync a repository
+
+git config --global alias.sync '!git pull && git add . -A && git commit -m "Update" && git push'
+
+
+# Include local bin folder into path
+echo "export PATH=$PATH:~/bin" >> .bashrc
 
 # get the latest software
-sudo apt-get update 
+sudo apt-get update && upgrade
 
 # remove unnecessary lenses
 sudo apt-get autoremove unity-lens-music unity-lens-photos unity-lens-gwibber unity-lens-shopping unity-lens-video -y
@@ -21,22 +53,3 @@ sudo apt-get remove unity-webapps-common
 sudo apt-get install libappindicator1 -y
 
 
-# Setup Git defaults
-
-# Create a ~/.gitignore in your user directory
-cd ~/
-touch .gitignore
-
-# Exclude bin and .metadata directories
-echo "bin" >> .gitignore
-echo ".metadata" >> .gitignore
-echo "*~" >> .gitignore
-echo "target/" >> .gitignore
-
-# Configure Git to use this file
-# as global .gitignore
-
-git config --global core.excludesfile ~/.gitignore
-git config --global branch.autosetuprebase always 
-
-echo alias upgrade='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade' >> ~/.bashrc
