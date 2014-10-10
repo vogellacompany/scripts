@@ -22,7 +22,7 @@ echo alias upgrade='sudo apt-get update && sudo apt-get upgrade && sudo apt-get 
 mkdir ~/bin
 cd ~/bin
 echo "pdflatex *.tex" > createpdf
-chmod 666 createpdf
+chmod 777 createpdf
 
 # Setup a Git alias to sync a repository
 
