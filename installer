@@ -52,4 +52,7 @@ sudo apt-get remove unity-webapps-common
 # install Dropbox indicator
 sudo apt-get install libappindicator1 -y
 
+# install 7zip support
+sudo apt-get install p7zip-full
+
 
