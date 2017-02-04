@@ -34,7 +34,7 @@
 // @resource      config   https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.config.js
 // @downloadURL   https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
 // @updateURL     https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
-// @version 1.20170117T1405
+// @version 1.20170204T1753
 
 // @include       https://bugs.eclipse.org/*
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
