@@ -71,11 +71,11 @@ var target_milestones= ["4.7 M5", "4.7 M6", "4.7", "4.6.3", "BETA J9"];
 // Indexes into target_milestones to be used for "Fixed (in <TM>)" links
 var main_target_milestones= [0/*, 2*/];
 
-// Add "<name>", "<email>" pairs for people you frequently CC:
+// Add "email"s for people you frequently CC:
 var ccs= [
-"FM", "Fabian Pfaff <Fabian.Pfaff@vogella.com",
-"SS", "Simon Scholz <simon.scholz@vogella.com>",
-"PS", "Patrik Suzzi <psuzzi@gmail.com>",
+"FP", "fabian.pfaff@vogella.com",
+"SS", "simon.scholz@vogella.com",
+"PS", "psuzzi@gmail.com",
 "SC", "scela@redhat.com",
 "AK", "akurtakov@gmail.com",
 "DM", "daniel_megert@ch.ibm.com"
