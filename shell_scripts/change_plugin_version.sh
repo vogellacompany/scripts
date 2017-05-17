@@ -1,18 +1,15 @@
 # changes the version of the vogella asciidoctor gradle plugin to the specified version
 # https://github.com/vogellacompany/com.vogella.gradle.plugins
-for dir in ./*/
+for DIR in ./*/
 do
-    if [ "$dir" == './com.vogella.tutorials.scripts/' ]
-    then
+    if [ "$DIR" == './com.vogella.tutorials.scripts/' ]; then
         continue
     fi
-    dir=${dir%*/}
-    cd ${dir}
-    if [ -f 'build.gradle' ]
-    then
-        echo "build.gradle found in ${dir}"
+    DIR=${DIR%*/}
+    cd ${DIR}
+    if [ -f 'build.gradle' ] ; then
+        echo "build.gradle found in ${DIR}"
         sed -i "s/'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:.*'/'com.vogella.gradle:com.vogella.gradle.plugin.asciidoc:$1'/" build.gradle
     fi
     cd ..
 done
-
