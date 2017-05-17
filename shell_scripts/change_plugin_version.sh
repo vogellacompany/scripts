@@ -2,7 +2,7 @@
 # https://github.com/vogellacompany/com.vogella.gradle.plugins
 for DIR in ./*/
 do
-    if [ "$DIR" == './com.vogella.tutorials.scripts/' ]; then
+    if [ "$DIR" = './com.vogella.tutorials.scripts/' ]; then
         continue
     fi
     DIR=${DIR%*/}
