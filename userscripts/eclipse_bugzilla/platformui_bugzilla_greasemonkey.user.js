@@ -34,7 +34,7 @@
 // @resource      config   https://www.eclipse.org/jdt/ui/scripts/jdtbugzilla.config.js
 // @downloadURL   https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
 // @updateURL     https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
-// @version 1.20170204T1753
+// @version 1.20170809T2138
 
 // @include       https://bugs.eclipse.org/*
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
@@ -74,7 +74,9 @@ var main_target_milestones= [0/*, 2*/];
 // Add "email"s for people you frequently CC:
 var ccs= [
 "FP", "fabian.pfaff@vogella.com",
+"DW", "david.weiser@vogella.com",
 "SS", "simon.scholz@vogella.com",
+"LV", "Lars.Vogel@vogella.com",
 "PS", "psuzzi@gmail.com",
 "SC", "scela@redhat.com",
 "AK", "akurtakov@gmail.com",
