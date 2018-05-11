@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # changes the version of the vogella asciidoctor gradle plugin to the specified version
 # https://github.com/vogellacompany/com.vogella.gradle.plugins
 for DIR in ./*/
