@@ -39,7 +39,6 @@
 // @downloadURL   https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
 // @updateURL     https://raw.githubusercontent.com/vogellacompany/scripts/master/userscripts/eclipse_bugzilla/platformui_bugzilla_greasemonkey.user.js
 // @version 1.20180117T1405
-
 // @include       https://bugs.eclipse.org/*
 // @include       https://bugs.eclipse.org/bugs/show_bug.cgi*
 // @include       https://bugs.eclipse.org/bugs/process_bug.cgi
@@ -75,12 +74,13 @@ var target_milestones= ["4.10", "4.10 M1", "4.10 M2"];
 // Indexes into target_milestones to be used for "Fixed (in <TM>)" links
 var main_target_milestones= [0/*, 2*/];
 
-// Add "<name>", "<email>" pairs for people you frequently CC:
+// Add "email"s for people you frequently CC:
 var ccs= [
 "FM", "Fabian Pfaff <Fabian.Pfaff@vogella.com",
 "JH", "Jonas Hungershausen <Jonas.Hungershausen@vogella.com",
 "SS", "Simon Scholz <simon.scholz@vogella.com>",
-"PS", "Patrik Suzzi <psuzzi@gmail.com>",
+"SS", "simon.scholz@vogella.com",
+"LV", "Lars.Vogel@vogella.com",
 "AK", "akurtakov@gmail.com",
 "DM", "daniel_megert@ch.ibm.com"
 ];
