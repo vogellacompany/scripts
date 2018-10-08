@@ -70,7 +70,7 @@
 // - edit jdtbugzilla.config.js
 
 // Add as many milestones as you like:
-var target_milestones= ["4.7 M5", "4.7 M6", "4.7", "4.6.3", "BETA J9"];
+var target_milestones= ["4.10", "4.10 M1", "4.10 M2"];
 
 // Indexes into target_milestones to be used for "Fixed (in <TM>)" links
 var main_target_milestones= [0/*, 2*/];
@@ -78,9 +78,9 @@ var main_target_milestones= [0/*, 2*/];
 // Add "<name>", "<email>" pairs for people you frequently CC:
 var ccs= [
 "FM", "Fabian Pfaff <Fabian.Pfaff@vogella.com",
+"JH", "Jonas Hungershausen <Jonas.Hungershausen@vogella.com",
 "SS", "Simon Scholz <simon.scholz@vogella.com>",
 "PS", "Patrik Suzzi <psuzzi@gmail.com>",
-"SC", "scela@redhat.com",
 "AK", "akurtakov@gmail.com",
 "DM", "daniel_megert@ch.ibm.com"
 ];
