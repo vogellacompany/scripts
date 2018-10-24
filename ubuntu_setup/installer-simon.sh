@@ -4,7 +4,16 @@ ssh-keygen -q -t rsa -b 4096 -f ~/.ssh/id_rsa -C $USER
 
 sudo apt install git
 
+git config --global user.name "Simon Scholz"
+git config --global user.email simon.scholz@vogella.com
+
 git config --global branch.autosetuprebase always
+
+mkdir ~/git/vogella
+
+mkdir ~/git/eclipse
+
+mkdir ~/git/vogella
 
 sudo apt install shutter
 
@@ -15,6 +24,9 @@ sudo apt install sdkman
 source "~/.sdkman/bin/sdkman-init.sh"
 
 sdk install java 8.0.191-oracle
+
+sudo ln -t /usr/bin -s ~/.sdkman/candidates/java/current/bin/javac javac
+sudo ln -t /usr/bin -s ~/.sdkman/candidates/java/current/bin/java java
 
 sdk install gradle
 
@@ -31,12 +43,6 @@ npm install -g @dojo/cli-create-app
 sudo apt install filezilla
 
 sudo apt install keepassx
-
-mkdir ~/git/vogella
-
-mkdir ~/git/eclipse
-
-mkdir ~/git/vogella
 
 mkdir ~/eclipse
 
