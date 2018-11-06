@@ -44,6 +44,12 @@ sudo apt install filezilla
 
 sudo apt install keepassx
 
+sudo apt install python-pip
+
+sudo pip install youtube-dl
+
+sudo pip install --upgrade youtube-dl
+
 mkdir ~/eclipse
 
 mkdir ~/workspaces
@@ -52,5 +58,5 @@ sudo apt-get update && upgrade
 
 echo "Done automatic console installs"
 
-echo "Do not forget about Skype, TeamViewer, VS Code, Chrome and of course download Eclipse"
+echo "Do not forget about Dropbox, Skype, TeamViewer, Slack, VS Code, Chrome and of course download Eclipse"
 
