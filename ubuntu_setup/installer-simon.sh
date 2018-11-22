@@ -9,6 +9,11 @@ git config --global user.email simon.scholz@vogella.com
 
 git config --global branch.autosetuprebase always
 
+git config --global gpg.program gpg
+git config --global commit.gpgsign true
+
+echo "Please also configure: git config --global user.signingkey {your gpg signing key}"
+
 mkdir ~/git/vogella
 
 mkdir ~/git/eclipse
