@@ -1,0 +1,31 @@
+= Eclipse IDE extensions
+:toc: left
+:linkcss:
+:sectnums:
+:show-link-uri:  
+:experimental:
+:icons:
+:chapter-label:
+:textselfreference: script
+:section-label: {sectnum} {secttitle}
+:physical-page-numbers:
+ifndef::fullscript[]
+// if you change this, you need to also change the imagesdir handling in the _template folder!
+:imagesdir: img
+endif::fullscript[]
+
+:footnotetext: Copyright vogella GmbH
+
+
+= RCP - The concepts behind Eclipse applications and development setup
+
+include::article.adoc[]
+include::article2.adoc[]
+include::article3.adoc[]
+
+= RCP - User interface development with SWT and JFace
+
+include::article4.adoc[]
+include::article5.adoc[]
+
+

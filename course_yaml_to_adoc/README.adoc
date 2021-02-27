@@ -1,0 +1,18 @@
+= Course yaml to adoc converter
+
+== Help
+
+[source, terminal]
+====
+./convert.py --help
+====
+
+== Example usage
+
+Reads `example.yml` from the current working directory and puts out the result as `example.adoc` in the same directory:
+
+[source, terminal]
+====
+./convert.py example.yml --settings "/home/fap/repos/vogella/content/exercise_settings.adoc"
+====
+

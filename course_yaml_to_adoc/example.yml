@@ -1,0 +1,45 @@
+name: "Eclipse IDE extensions"
+id: 51
+categories:
+- id: 48
+  name: "RCP - The concepts behind Eclipse applications and development setup"
+  exercises:
+  - name: "Setup for a task management application"
+    fileLocation:
+      createdAt: 1606211702460
+      updatedAt: 1606211702460
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/Git/article.html"
+    type: "STUDY"
+  - name: "Big Buck Bunny"
+    fileLocation:
+      createdAt: 1606211702461
+      updatedAt: 1606211702461
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/BigBuckBunny.mp4"
+    type: "VIDEO"
+  - name: "RCP Installation"
+    fileLocation:
+      createdAt: 1606211702461
+      updatedAt: 1606211702461
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/Git/article2.html"
+    type: "EXERCISE"
+  - name: "Setting up the target platform"
+    fileLocation:
+      createdAt: 1606211702461
+      updatedAt: 1606211702461
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/Git/article3.html"
+    type: "EXERCISE"
+- id: 52
+  name: "RCP - User interface development with SWT and JFace"
+  exercises:
+  - name: "Using the SWT API"
+    fileLocation:
+      createdAt: 1606211702463
+      updatedAt: 1606211702463
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/Git/article4.html"
+    type: "STUDY"
+  - name: "Introduction of the SWT Designer"
+    fileLocation:
+      createdAt: 1606211702463
+      updatedAt: 1606211702463
+      filePath: "file:///home/jnerlich/git/knowledgeforge/com.vogella.knowledgeforge/Git/article5.html"
+    type: "EXERCISE"
