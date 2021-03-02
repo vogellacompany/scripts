@@ -51,7 +51,7 @@ def convert_category(category):
 def extractExerciseFileName(filePath):
     filePath = Path(filePath)
     if filePath.suffix == ".html":
-        return filePath.stem
+        return filePath.parent.name + "/" + filePath.stem
     else:
         return ""
 

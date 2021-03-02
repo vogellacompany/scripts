@@ -19,13 +19,13 @@ endif::fullscript[]
 
 = RCP - The concepts behind Eclipse applications and development setup
 
-include::article.adoc[]
-include::article2.adoc[]
-include::article3.adoc[]
+include::Git/article.adoc[]
+include::Git/article2.adoc[]
+include::Git/article3.adoc[]
 
 = RCP - User interface development with SWT and JFace
 
-include::article4.adoc[]
-include::article5.adoc[]
+include::Git/article4.adoc[]
+include::Git/article5.adoc[]
 
 
